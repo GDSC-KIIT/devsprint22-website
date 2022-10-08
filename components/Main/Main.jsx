@@ -31,7 +31,7 @@ export const Main = () => {
         </div>
         <img
           className="-mt-10 md:-mt-36 lg:-mt-60"
-          src="./images/main-img.svg"
+          src="./images/main-img.png"
           alt=""
         />
       </main>
