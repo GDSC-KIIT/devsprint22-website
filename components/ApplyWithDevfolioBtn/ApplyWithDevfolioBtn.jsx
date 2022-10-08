@@ -5,7 +5,7 @@ export const ApplyWithDevfolioBtn = () => {
   return (
     <a
       href="https://devfolio.co"
-      className="flex items-center gap-3 bg-white w-fit py-2 px-4 rounded-sm"
+      className="flex items-center gap-3 bg-white w-fit py-2 px-4 rounded-sm z-10"
     >
       <div className="w-8">
         <img src="./images/devfolio-blue-logo.svg" alt="" />
