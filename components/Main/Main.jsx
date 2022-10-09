@@ -29,12 +29,12 @@ export const Main = () => {
             <p className="font-semibold text-lg md:text-xl">GDSC KIIT</p>
           </div>
           <div className="font-medium">|</div>
-            <Image
-              width={110}
-              height={30}
-              src={DevfolioWhite}
-              alt="devfolio-logo"
-            />
+          <Image
+            width={110}
+            height={30}
+            src={DevfolioWhite}
+            alt="devfolio-logo"
+          />
         </div>
         <div className="flex justify-center my-4">
           <ApplyWithDevfolioBtn />
