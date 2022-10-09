@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-primary;
+    @apply min-h-screen;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Clash Display", sans-serif;
+}
