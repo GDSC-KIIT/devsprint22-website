@@ -7,7 +7,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#232323",
+        primary: "#0E081C",
         navLink: "#919191",
       },
     },
