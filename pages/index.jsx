@@ -1,4 +1,4 @@
-import { About, Main, Navbar, Sponsors, Tracks, Rules, Timeline, Footer, Faq } from "../components";
+import { About, Main, Navbar, Sponsors, Tracks, Rules, Timeline, Footer, FAQ } from "../components";
 export default function Home() {
   return (
     <>
@@ -11,7 +11,7 @@ export default function Home() {
       <Tracks/>
       <Rules/>
       <Timeline/>
-      <Faq />
+      <FAQ />
       <Footer/>
     </>
   );
