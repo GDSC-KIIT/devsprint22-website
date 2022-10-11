@@ -1,4 +1,4 @@
-import { About, Main, Navbar, Sponsors } from "../components";
+import { About, Main, Navbar, Sponsors, Tracks, Rules, Timeline, Footer, Faq } from "../components";
 export default function Home() {
   return (
     <>
@@ -8,6 +8,11 @@ export default function Home() {
       </div>
       <About />
       <Sponsors />
+      <Tracks/>
+      <Rules/>
+      <Timeline/>
+      <Faq />
+      <Footer/>
     </>
   );
 }

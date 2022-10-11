@@ -20,13 +20,13 @@ export const Navbar = () => {
           />
         </div>
         <div className="hidden md:flex md:flex-row text-navLink font-medium gap-8 text-xl ">
-          <a href="#" className="hover:text-white">
+          <a href="#timeline" className="hover:text-white">
             Schedule
           </a>
           <a href="#sponsors" className="hover:text-white">
             Sponsors
           </a>
-          <a href="#" className="hover:text-white">
+          <a href="#FAQs" className="hover:text-white">
             FAQs
           </a>
         </div>
