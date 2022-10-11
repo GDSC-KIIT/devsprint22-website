@@ -2,7 +2,7 @@ import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { ChevronUpIcon } from '@heroicons/react/20/solid'
 
-export const Faq = () => {
+export const FAQ = () => {
   return (
     <div className='flex justify-center' id="FAQs">
       <div className='flex flex-wrap flex-row-reverse w-3/4 px-20 py-10'>
