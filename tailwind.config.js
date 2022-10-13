@@ -8,7 +8,11 @@ module.exports = {
     extend: {
       colors: {
         primary: "#0E081C",
+        primaryLight: "#180E30",
         navLink: "#919191",
+      },
+      fontFamily: {
+        Inter: ["Inter", "sans-serif"],
       },
     },
   },

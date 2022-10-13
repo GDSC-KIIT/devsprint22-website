@@ -20,7 +20,7 @@ export const Main = () => {
             alt="logo"
           />
         </div>
-        <h1 className="text-center text-lg md:text-2xl font-semibold">
+        <h1 className="text-center text-lg mb-4 md:text-2xl font-semibold">
           5th November 2022, KIIT University
         </h1>
         <div className="flex items-center justify-center gap-2 my-2">
@@ -36,7 +36,7 @@ export const Main = () => {
             alt="devfolio-logo"
           />
         </div>
-        <div className="flex justify-center my-4">
+        <div className="flex justify-center my-6">
           <ApplyWithDevfolioBtn />
         </div>
         <div className="-mt-6 md:-mt-32 lg:-mt-60">

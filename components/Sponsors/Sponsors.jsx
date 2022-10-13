@@ -3,11 +3,11 @@ import { SponsorRow } from "./SponsorRow";
 
 export const Sponsors = () => {
   return (
-    <section className="my-10" id="sponsors">
-      <h1 className="text-center text-3xl md:text-4xl font-semibold text-white pb-8">
+    <section id="sponsors">
+      <h1 className="text-center text-3xl md:text-6xl font-semibold text-white pb-8">
         our sponsors
       </h1>
-      <div className="flex flex-col items-center gap-10">
+      <div className="flex flex-col items-center gap-10 mt-10">
         <SponsorRow
           imgArr={[
             { name: "digital-ocean", url: "https://www.digitalocean.com/" },
