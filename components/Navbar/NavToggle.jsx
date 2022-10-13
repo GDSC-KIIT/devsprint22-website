@@ -2,7 +2,7 @@ import React from "react";
 
 export const NavToggle = ({ setIsOpen, isOpen }) => {
   return (
-    <div className="-mr-2 flex md:hidden">
+    <div className="flex md:hidden">
       <button
         onClick={() => setIsOpen((status) => !status)}
         type="button"
