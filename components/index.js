@@ -7,4 +7,4 @@ export { Tracks } from "./Tracks/Tracks";
 export { Timeline } from "./Timeline/Timeline";
 export { Footer } from "./Footer/Footer";
 export { Rules } from "./Rules/Rules";
-export { Faq } from "./FAQ/Faq";
+export { FAQ } from "./FAQ/FAQ";

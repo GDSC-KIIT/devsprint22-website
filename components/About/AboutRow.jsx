@@ -9,16 +9,19 @@ export const AboutRow = ({ img, children, heading, isReverse }) => {
       }`}
     >
       <div className="mx-10">
-        <h1 className="text-3xl md:text-4xl font-semibold text-white pb-8">
+        <h1
+          data-aos="fade-up"
+          className="text-3xl md:text-4xl font-semibold text-white pb-8"
+        >
           {heading}
         </h1>
-        <div className="text-white text-lg max-w-2xl flex flex-col gap-4">
+        <div className="text-white font-Inter text-lg max-w-2xl flex flex-col gap-4">
           {children}
         </div>
       </div>
       <img
         loading="lazy"
-        className="w-1/2 md:w-auto"
+        className="w-2/3 md:max-w-md"
         src={img}
         alt="about-image"
       />
