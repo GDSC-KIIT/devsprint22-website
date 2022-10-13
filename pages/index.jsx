@@ -1,18 +1,27 @@
-import { About, Main, Navbar, Sponsors, Tracks, Rules, Timeline, Footer, FAQ } from "../components";
+import {
+  About,
+  Main,
+  Navbar,
+  Sponsors,
+  Tracks,
+  Rules,
+  Timeline,
+  Footer,
+  FAQ,
+} from "../components";
+
 export default function Home() {
   return (
-    <>
-      <div id="landing-page">
-        <Navbar />
-        <Main />
-      </div>
+    <div className="flex flex-col gap-20">
+      <Navbar />
+      <Main />
       <About />
       <Sponsors />
-      <Tracks/>
-      <Rules/>
-      <Timeline/>
+      <Tracks />
+      <Rules />
+      <Timeline />
       <FAQ />
-      <Footer/>
-    </>
+      <Footer />
+    </div>
   );
 }
