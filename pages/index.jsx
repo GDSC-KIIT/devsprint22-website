@@ -16,10 +16,10 @@ export default function Home() {
       <Navbar />
       <Main />
       <About />
-      <Sponsors />
-      <Tracks />
-      <Rules />
       <Timeline />
+      <Rules />
+      <Tracks />
+      <Sponsors />
       <FAQ />
       <Footer />
     </div>
