@@ -8,7 +8,7 @@ export const DisclosureComponent = ({ heading, children }) => {
       {({ open }) => (
         <>
           <Disclosure.Button className="flex w-full justify-between rounded-lg  px-4 mt-6 text-left text-sm font-medium text-white focus:outline-none focus-visible:ring focus-visible:ring-purple-500 focus-visible:ring-opacity-75">
-            <div className="text-xl sm:text-2xl font-Inter">{heading}</div>
+            <div className="text-xl sm:text-2xl font-Mori">{heading}</div>
             <div>
               <ChevronUpIcon
                 className={`${
@@ -25,7 +25,7 @@ export const DisclosureComponent = ({ heading, children }) => {
             leaveFrom="transform scale-100 opacity-100"
             leaveTo="transform scale-99 opacity-0"
           >
-            <Disclosure.Panel className="px-4 pt-2 pb-2 font-Inter text-xl text-slate-500">
+            <Disclosure.Panel className="px-4 pt-2 pb-2 font-Mori text-xl text-slate-500">
               {children}
             </Disclosure.Panel>
           </Transition>

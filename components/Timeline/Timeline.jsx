@@ -1,31 +1,53 @@
 import React from "react";
 import { TimelineCard } from "./TimelineCard";
 import { TimelineDay } from "./TimelineDay";
+import { motion } from "framer-motion";
 
 export const Timeline = () => {
+  const container = {
+    hidden: { opacity: 0 },
+    show: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.35,
+      },
+    },
+  };
   return (
     <div className="mx-auto md:flex md:gap-20">
-      <h1 className="text-center md:self-center text-3xl md:text-6xl font-semibold text-white pb-8">
+      <h1 className="text-center text-glow md:self-center text-3xl md:text-6xl font-semibold text-white pb-8">
         timeline
       </h1>
       <div>
         <div className="text-white mt-6 mx-auto" id="timeline">
-          <ol className="relative border-l border-gray-200">
+          <motion.ol
+            initial="hidden"
+            whileInView="show"
+            variants={container}
+            viewport={{ once: true, amount: 0.4 }}
+            className="relative border-l border-gray-200"
+          >
             <TimelineCard
               heading={"Registration Starts"}
-              timing={"16th October, 2022"}
+              timing={"18th October, 2022"}
               dotColor={"bg-[#4283F3]"}
               E94336
             />
             <TimelineCard
               heading={"Registration Ends"}
-              timing={"30th October, 2022"}
+              timing={"31st October, 2022"}
               dotColor={"bg-[#E94336]"}
             />
-          </ol>
+          </motion.ol>
         </div>
         <div className="text-white mt-6 mx-auto" id="timeline">
-          <ol className="relative border-l border-gray-200">
+          <motion.ol
+            initial="hidden"
+            whileInView="show"
+            variants={container}
+            viewport={{ once: true, amount: 0.4 }}
+            className="relative border-l border-gray-200"
+          >
             <TimelineDay day={1} date={"5th November, 2022"} />
             <TimelineCard
               heading={"Team Check-In and Opening Ceremony"}
@@ -58,7 +80,7 @@ export const Timeline = () => {
               timing={"5PM to 5.30PM"}
               dotColor={"bg-[#00A150]"}
             />
-          </ol>
+          </motion.ol>
         </div>
       </div>
     </div>

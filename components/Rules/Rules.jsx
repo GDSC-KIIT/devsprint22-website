@@ -3,11 +3,11 @@ import React from "react";
 export const Rules = () => {
   return (
     <div className="text-white flex flex-col justify-center w-full md:max-w-5xl mx-auto">
-      <h1 className="text-center text-3xl md:text-6xl font-semibold text-white pb-8">
+      <h1 className="text-center text-glow text-3xl md:text-6xl font-semibold text-white pb-8">
         rules
       </h1>
       <div className="mx-4">
-        <ul className="pl-10 text-xl font-Inter list-disc flex flex-col gap-4 max-w-3xl mx-auto leading-7 text-white">
+        <ul className="pl-10 text-xl font-Mori list-disc flex flex-col gap-4 max-w-3xl mx-auto leading-7 text-white/80">
           <li>Each team can have a minimum of 3 and maximum of 5 members</li>
           <li>
             Each team should have one team leader, who will be responsible for
@@ -24,7 +24,6 @@ export const Rules = () => {
             1. A team won&apos;t be registered if all the members are not
             physically present.
           </li>
-          <li>Registration phase ends on 30th October at 11:59PM IST hours.</li>
         </ul>
       </div>
     </div>

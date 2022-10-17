@@ -11,11 +11,11 @@ export const AboutRow = ({ img, children, heading, isReverse }) => {
       <div className="mx-10">
         <h1
           data-aos="fade-up"
-          className="text-3xl md:text-4xl font-semibold text-white pb-8"
+          className="text-3xl md:text-4xl text-glow font-semibold text-white pb-8"
         >
           {heading}
         </h1>
-        <div className="text-white font-Inter text-lg max-w-2xl flex flex-col gap-4">
+        <div className="text-white/50 font-Mori text-lg max-w-2xl flex flex-col gap-4">
           {children}
         </div>
       </div>

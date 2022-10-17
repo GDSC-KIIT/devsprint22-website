@@ -11,7 +11,7 @@ export const Trackcard = ({ headingBg, borderBg, text, para }) => {
         >
           #{text}
         </div>
-        <p className=" text-zinc-400 font-Inter text-md mb-3">
+        <p className=" text-zinc-400 font-Mori text-md mb-3">
           {para}
         </p>
       </div>

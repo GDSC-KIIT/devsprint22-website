@@ -3,9 +3,9 @@ import Image from "next/image";
 import React from "react";
 export const SponsorRow = ({ imgArr }) => {
   return (
-    <div className="flex flex-col md:flex-row justify-center items-center gap-10 flex-wrap">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-16 flex-wrap">
       {imgArr.map(({ name, url }, index) => (
-        <a href={url} key={index} className="max-w-[15rem]">
+        <a href={url} key={index} className="max-w-[15rem] hover:scale-110 transition-all delay-100">
           <img
             loading="lazy"
             src={`/sponsors/${name}.png`}

@@ -12,7 +12,7 @@ module.exports = {
         navLink: "#919191",
       },
       fontFamily: {
-        Inter: ["Inter", "sans-serif"],
+        Mori: ["Mori Gothic", "sans-serif"],
       },
     },
   },

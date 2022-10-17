@@ -4,7 +4,7 @@ import { Trackcard } from "./Trackcard";
 export const Tracks = () => {
   return (
     <div className="text-white">
-      <h1 className="text-center text-3xl md:text-6xl font-semibold text-white pb-8">
+      <h1 className="text-center text-glow text-3xl md:text-6xl font-semibold text-white pb-8">
         tracks
       </h1>
       <div className="flex flex-wrap justify-center p-4 gap-10">

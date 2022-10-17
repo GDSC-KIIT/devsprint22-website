@@ -4,7 +4,7 @@ import { DisclosureComponent } from "./DisclosureComponent";
 export const FAQ = () => {
   return (
     <div className="max-w-xl mx-auto gap-10" id="faqs">
-      <h1 className="text-center text-3xl md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8">
+      <h1 className="text-center text-glow text-3xl md:text-6xl max-w-[15ch] mx-auto font-semibold text-white pb-8">
         frequently asked questions
       </h1>
       <div className="mx-auto rounded-2xl transition-all delay-100 ease-in mt-6">
