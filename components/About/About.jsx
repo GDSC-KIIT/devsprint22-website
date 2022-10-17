@@ -4,7 +4,7 @@ import { AboutRow } from "./AboutRow";
 export const About = () => {
   return (
     <div className="flex flex-col gap-8 max-w-7xl mx-auto">
-      <AboutRow heading={"about DevSprint'22"} img={"./images/about1.svg"}>
+      <AboutRow heading={"what is DevSprint'22?"} img={"./images/about1.svg"}>
         <p>
           Our annual hackathon, DevSprint is back for the 2022 edition. It is an
           exciting learning opportunity for students who are passionate about
@@ -19,12 +19,12 @@ export const About = () => {
         </p>
       </AboutRow>
       <AboutRow
-        heading={"about GDSC KIIT"}
+        heading={"what is GDSC KIIT?"}
         img={"./images/about2.svg"}
         isReverse
       >
         <p>
-          Google Developer Students Club KIIT is a student community powered by
+          Google Developer Student Clubs KIIT is a student community powered by
           Google to build a thriving community of student developers here in
           KIIT. We are focused on building a community of student developers
           interested in solving real-world problems.{" "}

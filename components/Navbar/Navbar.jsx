@@ -8,8 +8,8 @@ import RightArrow from "../../public/images/right-arrow.png";
 export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="pt-10 justify-center md:px-6 flex flex-col items-between relative z-50">
-      <div className="flex items-center px-4 justify-between z-[100]">
+    <nav className="pt-10 justify-center md:px-6 flex z-40 flex-col items-between relative">
+      <div className="flex items-center px-4 justify-between z-20">
         <div className="max-w-[10rem] md:max-w-[15rem]">
           <Image
             width={Logo.width}
@@ -41,7 +41,7 @@ export const Navbar = () => {
         leaveFrom="opacity-100 scale-100"
         leaveTo="opacity-100 scale-95"
       >
-        <div className="md:hidden absolute w-full -top-20 pt-20 pb-4 bg-primaryLight shadow-xl shadow-[#180E50]/20 z-50 ">
+        <div className="md:hidden absolute w-full -top-20 pt-20 pb-4 bg-primaryLight shadow-xl shadow-[#180E50]/20 z-40">
           <div className="flex flex-col text-2xl px-4 font-medium text-navLink gap-4 pt-8">
             <a
               href="#timeline"
@@ -52,7 +52,7 @@ export const Navbar = () => {
                 loading="eager"
                 width={RightArrow.width}
                 height={RightArrow.height}
-                className="-translate-x-2 group-hover:translate-x-2 transition-all duration-300"
+                className="-translate-x-2 group-hover:translate-x-[2px] transition-all duration-300"
                 src={RightArrow}
                 alt=""
               />
@@ -66,7 +66,7 @@ export const Navbar = () => {
                 loading="eager"
                 width={RightArrow.width}
                 height={RightArrow.height}
-                className="-translate-x-2 group-hover:translate-x-2 transition-all duration-300"
+                className="-translate-x-2 group-hover:translate-x-[2px] transition-all duration-300"
                 src={RightArrow}
                 alt=""
               />
@@ -80,7 +80,7 @@ export const Navbar = () => {
                 loading="eager"
                 width={RightArrow.width}
                 height={RightArrow.height}
-                className="-translate-x-2 group-hover:translate-x-2 transition-all duration-300"
+                className="-translate-x-2 group-hover:translate-x-[2px] transition-all duration-300"
                 src={RightArrow}
                 alt=""
               />

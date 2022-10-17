@@ -8,3 +8,4 @@ export { Timeline } from "./Timeline/Timeline";
 export { Footer } from "./Footer/Footer";
 export { Rules } from "./Rules/Rules";
 export { FAQ } from "./FAQ/FAQ";
+export { Prizes } from "./Prizes/Prizes";
