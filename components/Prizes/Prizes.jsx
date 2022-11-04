@@ -2,6 +2,7 @@ import React from "react";
 import { PrizeCard } from "./PrizeCard";
 import { PrizeCardWithTextOnly } from "./PrizeCardWithTextOnly";
 import { motion } from "framer-motion";
+
 export const Prizes = () => {
   const container = {
     hidden: { opacity: 0 },
@@ -15,7 +16,7 @@ export const Prizes = () => {
 
   return (
     <div>
-      <h1 className="text-center text-glow text-3xl md:text-6xl font-semibold text-white pb-14">
+      <h1 className="text-center text-glow text-5xl md:text-6xl font-semibold text-white pb-14">
         win exciting prizes!
       </h1>
       <motion.div
@@ -23,7 +24,7 @@ export const Prizes = () => {
         whileInView="show"
         variants={container}
         viewport={{ once: true, amount: 0.4 }}
-        className="flex flex-col gap-6 items-center"
+        className="flex flex-col gap-6 my-12 items-center"
       >
         <PrizeCard
           bgColor={"bg-[#d4af37]"}
@@ -42,9 +43,6 @@ export const Prizes = () => {
           heading={"Winner #3"}
           amount={"4,000"}
           img={"/images/trophy-bronze.png"}
-        />
-        <PrizeCardWithTextOnly
-          text={"Swags from Digital Ocean, Deepsource and many more!"}
         />
       </motion.div>
     </div>

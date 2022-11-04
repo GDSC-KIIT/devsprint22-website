@@ -10,6 +10,7 @@ import {
   Timeline,
   Footer,
   FAQ,
+  DevfolioPrizes
 } from "../components";
 
 export default function Home() {
@@ -27,7 +28,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>DevSprint 22 Hackathon</title>
+        <title>DevSprint 22 | Hackathon</title>
         <meta name="title" content="DevSprint 22" />
         <meta
           name="description"
@@ -37,34 +38,40 @@ export default function Home() {
           cutting-edge solutions."
         />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://dsckiit.in/" />
+        <meta property="og:url" content="https://devsprint.dsckiit.in/" />
         <meta
           property="og:title"
           content="DevSprint 22 · 5th-6th November 2022"
         />
-        <meta property="og:description" content="Define. Think. Build" />
+        <meta property="og:description" content="Define. Think. Build." />
         <meta
           property="og:image"
-          content="https://devsprint22-dark.vercel.app/og-image.png"
+          content="https://devsprint.dsckiit.in/og-image.png"
         />
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content="https://dsckiit.in/" />
+        <meta property="twitter:url" content="https://devsprint.dsckiit.in/" />
         <meta
           property="twitter:title"
           content="DevSprint 22 · 5th-6th November 2022"
         />
-        <meta property="twitter:description" content="Define. Think. Build" />
+        <meta property="twitter:description" content="Define. Think. Build." />
         <meta
           property="twitter:image"
-          content="https://devsprint22-dark.vercel.app/og-image.png"
+          content="https://devsprint.dsckiit.in/og-image.png"
         />
         <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+        <script
+          defer
+          data-domain="devsprint.dsckiit.in"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </Head>
       <div className="flex flex-col gap-20">
         <Navbar />
         <Main />
         <About />
         <Timeline />
+        <DevfolioPrizes />
         <Rules />
         <Tracks />
         <Sponsors />

@@ -14,12 +14,12 @@ export const Timeline = () => {
     },
   };
   return (
-    <div className="mx-auto md:flex md:gap-20">
-      <h1 className="text-center text-glow md:self-center text-3xl md:text-6xl font-semibold text-white pb-8">
+    <div className="mx-auto md:flex md:gap-20" id="timeline">
+      <h1 className="text-center text-glow md:self-center text-5xl md:text-6xl font-semibold text-white pb-8">
         timeline
       </h1>
       <div>
-        <div className="text-white mt-6 mx-auto" id="timeline">
+        <div className="text-white mt-6 mx-auto">
           <motion.ol
             initial="hidden"
             whileInView="show"
@@ -29,13 +29,13 @@ export const Timeline = () => {
           >
             <TimelineCard
               heading={"Registration Starts"}
-              timing={"18th October, 2022"}
+              timing={"25th October, 2022"}
               dotColor={"bg-[#4283F3]"}
               E94336
             />
             <TimelineCard
               heading={"Registration Ends"}
-              timing={"31st October, 2022"}
+              timing={"4th November, 2022"}
               dotColor={"bg-[#E94336]"}
             />
           </motion.ol>
@@ -77,7 +77,7 @@ export const Timeline = () => {
             />
             <TimelineCard
               heading={"Closing Ceremony!"}
-              timing={"5PM to 5.30PM"}
+              timing={"5PM to 5:30PM"}
               dotColor={"bg-[#00A150]"}
             />
           </motion.ol>

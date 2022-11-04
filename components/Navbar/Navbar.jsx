@@ -9,7 +9,7 @@ export const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
     <nav className="pt-10 justify-center md:px-6 flex z-40 flex-col items-between relative">
-      <div className="flex items-center px-4 justify-between z-20">
+      <div className="nd:px-10 lg:px-20 flex items-center px-4 justify-between z-20">
         <div className="max-w-[10rem] md:max-w-[15rem]">
           <Image
             width={Logo.width}
@@ -19,14 +19,20 @@ export const Navbar = () => {
             alt="Workflow"
           />
         </div>
-        <div className="hidden md:flex md:flex-row text-navLink font-medium gap-8 text-xl ">
-          <a href="#timeline" className="hover:text-white">
+        <div className="hidden text-glow md:flex md:flex-row text-white font-medium gap-10 text-xl ">
+          <a
+            href="#timeline"
+            className="border-b border-transparent hover:border-white"
+          >
             Timeline
           </a>
-          <a href="#sponsors" className="hover:text-white">
+          <a href="#special-prizes" className="border-b border-transparent hover:border-white">
+            Prizes
+          </a>
+          <a href="#sponsors" className="border-b border-transparent hover:border-white">
             Sponsors
           </a>
-          <a href="#faqs" className="hover:text-white">
+          <a href="#faqs" className="border-b border-transparent hover:border-white">
             FAQs
           </a>
         </div>
@@ -42,12 +48,26 @@ export const Navbar = () => {
         leaveTo="opacity-100 scale-95"
       >
         <div className="md:hidden absolute w-full -top-20 pt-20 pb-4 bg-primaryLight shadow-xl shadow-[#180E50]/20 z-40">
-          <div className="flex flex-col text-2xl px-4 font-medium text-navLink gap-4 pt-8">
+          <div className="flex flex-col text-2xl px-4 font-medium text-glow text-white gap-4 pt-8">
             <a
               href="#timeline"
               className="group hover:text-white flex justify-between items-center border-b-2"
             >
               <div>Timeline</div>
+              <Image
+                loading="eager"
+                width={RightArrow.width}
+                height={RightArrow.height}
+                className="-translate-x-2 group-hover:translate-x-[2px] transition-all duration-300"
+                src={RightArrow}
+                alt=""
+              />
+            </a>
+            <a
+              href="#special-prizes"
+              className="group hover:text-white flex justify-between items-center border-b-2"
+            >
+              <div>Prizes</div>
               <Image
                 loading="eager"
                 width={RightArrow.width}
