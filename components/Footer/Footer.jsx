@@ -6,6 +6,7 @@ import Twitter from "../../public/social-media/twitter.svg";
 import Instagram from "../../public/social-media/instagram.svg";
 import Discord from "../../public/social-media/discord.svg";
 import Email from "../../public/social-media/email.png";
+import GDSCLogo from "../../public/images/gdsc-logo.svg";
 
 export const Footer = () => {
   return (
@@ -23,7 +24,13 @@ export const Footer = () => {
         <div className="flex items-center gap-4">
           <span className="text-sm">powered by</span>
           <div className="flex items-center gap-1">
-            <img src="./images/gdsc-logo.svg" alt="" />
+            <Image
+              src={GDSCLogo}
+              loading={"lazy"}
+              width={GDSCLogo.width}
+              height={30}
+              alt=""
+            />
             <p>GDSC KIIT</p>
           </div>
         </div>
@@ -40,7 +47,13 @@ export const Footer = () => {
             rel="noreferrer"
             className="flex items-center w-fit rounded-full p-2 border-2 border-white"
           >
-            <Image src={Twitter} width={20} height={20} alt="twitter-logo" />
+            <Image
+              src={Twitter}
+              loading={"lazy"}
+              width={20}
+              height={20}
+              alt="twitter-logo"
+            />
           </a>
           <a
             href="https://instagram.com/gdsckiit"
@@ -51,6 +64,7 @@ export const Footer = () => {
             <Image
               src={Instagram}
               width={20}
+              loading={"lazy"}
               height={20}
               alt="instagram-logo"
             />
@@ -61,15 +75,27 @@ export const Footer = () => {
             rel="noreferrer"
             className="flex items-center w-fit rounded-full p-2 border-2 border-white"
           >
-            <Image src={Discord} width={20} height={20} alt="discord-logo" />
+            <Image
+              src={Discord}
+              loading={"lazy"}
+              width={20}
+              height={20}
+              alt="discord-logo"
+            />
           </a>
           <a
-            href="mailto:mail@dsckiit.in"
+            href="mailto:dsckiit@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="flex items-center w-fit rounded-full p-2 border-2 border-white"
           >
-            <Image src={Email} width={20} height={20} alt="email-logo" />
+            <Image
+              src={Email}
+              loading={"lazy"}
+              width={20}
+              height={20}
+              alt="email-logo"
+            />
           </a>
         </div>
       </div>
